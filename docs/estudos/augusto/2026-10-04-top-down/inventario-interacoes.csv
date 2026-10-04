@@ -1,0 +1,48 @@
+path,line,kind,value,status
+config/config.json.template,4,url,https://app.simples.vet/login/login.php,CODE; configuracao
+src/scraper/appointment_extractor.py,89,modelo_dinamico,"f""https://app.simples.vet/agenda/agenda_relatorio_v2.php?tipo=lista&data={start_date}-{end_date}""",CODE; validar na aplicacao atual
+src/scraper/appointment_extractor.py,117,url,https://app.simples.vet/,CODE; validar na aplicacao atual
+src/scraper/procedure_extractor.py,69,url,https://app.simples.vet/consulta/atendimento/atendimento.php,CODE; validar na aplicacao atual
+src/scraper/procedure_extractor.py,82,seletor_ou_id,p__tev_int_codigo,CODE; validar na aplicacao atual
+src/scraper/procedure_extractor.py,90,seletor_ou_id,p__eve_dat_data_text,CODE; validar na aplicacao atual
+src/scraper/procedure_extractor.py,98,seletor_ou_id,"//li[contains(text(),'Selecionar período')]",CODE; validar na aplicacao atual
+src/scraper/procedure_extractor.py,128,modelo_dinamico,"f"".calendar.{calendar_side} th[colspan='5']""",CODE; validar na aplicacao atual
+src/scraper/procedure_extractor.py,151,modelo_dinamico,"f"".calendar.{calendar_side} th.next""",CODE; validar na aplicacao atual
+src/scraper/procedure_extractor.py,159,modelo_dinamico,"f"".calendar.{calendar_side} th.prev""",CODE; validar na aplicacao atual
+src/scraper/procedure_extractor.py,171,modelo_dinamico,"f"".calendar.{calendar_side} td.available""",CODE; validar na aplicacao atual
+src/scraper/procedure_extractor.py,205,seletor_ou_id,p__btn_relatorio,CODE; validar na aplicacao atual
+src/scraper/procedure_extractor.py,221,seletor_ou_id,a.p__btn_exportar[rel='xls'],CODE; validar na aplicacao atual
+src/scraper/simplesvet_actions.py,108,seletor_ou_id,"input[name=""l_usu_var_email""]",CODE; validar na aplicacao atual
+src/scraper/simplesvet_actions.py,109,seletor_ou_id,"input[id=""l_usu_var_email""]",CODE; validar na aplicacao atual
+src/scraper/simplesvet_actions.py,110,seletor_ou_id,#l_usu_var_email,CODE; validar na aplicacao atual
+src/scraper/simplesvet_actions.py,111,seletor_ou_id,"input[type=""email""]",CODE; validar na aplicacao atual
+src/scraper/simplesvet_actions.py,115,seletor_ou_id,"input[name=""l_usu_var_senha""]",CODE; validar na aplicacao atual
+src/scraper/simplesvet_actions.py,116,seletor_ou_id,"input[id=""l_usu_var_senha""]",CODE; validar na aplicacao atual
+src/scraper/simplesvet_actions.py,117,seletor_ou_id,#l_usu_var_senha,CODE; validar na aplicacao atual
+src/scraper/simplesvet_actions.py,118,seletor_ou_id,"input[type=""password""]",CODE; validar na aplicacao atual
+src/scraper/simplesvet_actions.py,122,seletor_ou_id,"button[id=""btn_login""]",CODE; validar na aplicacao atual
+src/scraper/simplesvet_actions.py,123,seletor_ou_id,#btn_login,CODE; validar na aplicacao atual
+src/scraper/simplesvet_actions.py,124,seletor_ou_id,"button[type=""submit""]",CODE; validar na aplicacao atual
+src/scraper/simplesvet_actions.py,125,seletor_ou_id,"input[type=""submit""]",CODE; validar na aplicacao atual
+src/scraper/simplesvet_actions.py,126,seletor_ou_id,.btn-login,CODE; validar na aplicacao atual
+src/scraper/simplesvet_actions.py,189,seletor_ou_id,.dashboard,CODE; validar na aplicacao atual
+src/scraper/simplesvet_actions.py,190,seletor_ou_id,#dashboard,CODE; validar na aplicacao atual
+src/scraper/simplesvet_actions.py,191,seletor_ou_id,.main-content,CODE; validar na aplicacao atual
+src/scraper/simplesvet_actions.py,192,seletor_ou_id,.user-menu,CODE; validar na aplicacao atual
+src/scraper/simplesvet_actions.py,193,seletor_ou_id,"[data-testid=""dashboard""]",CODE; validar na aplicacao atual
+src/scraper/simplesvet_actions.py,194,seletor_ou_id,.sidebar,CODE; validar na aplicacao atual
+src/scraper/simplesvet_actions.py,336,seletor_ou_id,"a[href*=""atendimento""]",CODE; validar na aplicacao atual
+src/scraper/simplesvet_actions.py,337,seletor_ou_id,"a[href*=""consulta""]",CODE; validar na aplicacao atual
+src/scraper/simplesvet_actions.py,338,seletor_ou_id,"a[href*=""appointment""]",CODE; validar na aplicacao atual
+src/scraper/simplesvet_actions.py,339,seletor_ou_id,.menu-atendimentos,CODE; validar na aplicacao atual
+src/scraper/simplesvet_actions.py,340,seletor_ou_id,#menu-atendimentos,CODE; validar na aplicacao atual
+src/scraper/venda_extractor.py,31,url,https://app.simples.vet/principal/venda/venda.php,CODE; validar na aplicacao atual
+src/scraper/venda_extractor.py,43,seletor_ou_id,p__ven_dat_data_text,CODE; validar na aplicacao atual
+src/scraper/venda_extractor.py,50,seletor_ou_id,"//li[contains(text(),'Selecionar período')]",CODE; validar na aplicacao atual
+src/scraper/venda_extractor.py,60,modelo_dinamico,"f"".calendar.{calendar_side} table""",CODE; validar na aplicacao atual
+src/scraper/venda_extractor.py,63,modelo_dinamico,"f"".calendar.{calendar_side} th[colspan='5']""",CODE; validar na aplicacao atual
+src/scraper/venda_extractor.py,79,modelo_dinamico,"f"".calendar.{calendar_side} th.next""",CODE; validar na aplicacao atual
+src/scraper/venda_extractor.py,84,modelo_dinamico,"f"".calendar.{calendar_side} th.prev""",CODE; validar na aplicacao atual
+src/scraper/venda_extractor.py,88,modelo_dinamico,"f"".calendar.{calendar_side} td.available""",CODE; validar na aplicacao atual
+src/scraper/venda_extractor.py,110,seletor_ou_id,p__btn_relatorio,CODE; validar na aplicacao atual
+src/scraper/venda_extractor.py,118,seletor_ou_id,a.p__btn_exportar[rel='xls_vendas'],CODE; validar na aplicacao atual

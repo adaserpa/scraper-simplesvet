@@ -1,0 +1,42 @@
+group,field,meaning,type,source,limitations
+agenda,veterinario,Nome inferido do profissional,texto,src/scraper/pdf_converter.py:252-260,Sem ID estavel; origem PDF e heuristicas
+agenda,cliente,Nome do tutor,texto,src/scraper/pdf_converter.py:252-260,Sem ID estavel; origem PDF e heuristicas
+agenda,animal,Nome do animal,texto,src/scraper/pdf_converter.py:252-260,Sem ID estavel; origem PDF e heuristicas
+agenda,tipo_atendimento,Tipo textual do agendamento,texto,src/scraper/pdf_converter.py:252-260,Sem ID estavel; origem PDF e heuristicas
+agenda,data,Data DD/MM/YYYY validada,texto,src/scraper/pdf_converter.py:252-260,Sem ID estavel; origem PDF e heuristicas
+agenda,hora,Hora textual,texto,src/scraper/pdf_converter.py:252-260,Sem ID estavel; origem PDF e heuristicas
+agenda,status,Status textual,texto,src/scraper/pdf_converter.py:252-260,Sem ID estavel; origem PDF e heuristicas
+vendas,Data e hora,Campo da exportacao de vendas,tipo inferido pandas,src/scraper/venda_extractor.py:162-183,Coluna ausente omitida; granularidade requer amostra
+vendas,Venda,Identificacao exportada da venda; tipo real pendente,tipo inferido pandas,src/scraper/venda_extractor.py:162-183,Coluna ausente omitida; granularidade requer amostra
+vendas,Status da venda,Campo da exportacao de vendas,tipo inferido pandas,src/scraper/venda_extractor.py:162-183,Coluna ausente omitida; granularidade requer amostra
+vendas,Funcionário,Campo da exportacao de vendas,tipo inferido pandas,src/scraper/venda_extractor.py:162-183,Coluna ausente omitida; granularidade requer amostra
+vendas,Cliente,Campo da exportacao de vendas,tipo inferido pandas,src/scraper/venda_extractor.py:162-183,Coluna ausente omitida; granularidade requer amostra
+vendas,Animal,Campo da exportacao de vendas,tipo inferido pandas,src/scraper/venda_extractor.py:162-183,Coluna ausente omitida; granularidade requer amostra
+vendas,Tipo do Item,Campo da exportacao de vendas,tipo inferido pandas,src/scraper/venda_extractor.py:162-183,Coluna ausente omitida; granularidade requer amostra
+vendas,Grupo,Campo da exportacao de vendas,tipo inferido pandas,src/scraper/venda_extractor.py:162-183,Coluna ausente omitida; granularidade requer amostra
+vendas,Produto/serviço,Campo da exportacao de vendas,tipo inferido pandas,src/scraper/venda_extractor.py:162-183,Coluna ausente omitida; granularidade requer amostra
+vendas,Valor Unitário,Campo da exportacao de vendas,numero convertido,src/scraper/venda_extractor.py:162-183,Coluna ausente omitida; granularidade requer amostra
+vendas,Quantidade,Quantidade; ignorada na contagem de castracao,numero convertido,src/scraper/venda_extractor.py:162-183,Coluna ausente omitida; granularidade requer amostra
+vendas,Bruto,Campo da exportacao de vendas,numero convertido,src/scraper/venda_extractor.py:162-183,Coluna ausente omitida; granularidade requer amostra
+vendas,Desconto,Campo da exportacao de vendas,numero convertido,src/scraper/venda_extractor.py:162-183,Coluna ausente omitida; granularidade requer amostra
+vendas,Líquido,Valor liquido; nao prova recebimento,numero convertido,src/scraper/venda_extractor.py:162-183,Coluna ausente omitida; granularidade requer amostra
+eventos,Animal,Nome do animal / usuario / texto do procedimento,texto esperado,src/formatter/vaccine_test_processor.py:225-280,Campos consumidos; nao e esquema completo do export
+eventos,Usuario,Nome do animal / usuario / texto do procedimento,texto esperado,src/formatter/vaccine_test_processor.py:225-280,Campos consumidos; nao e esquema completo do export
+eventos,Resumo,Nome do animal / usuario / texto do procedimento,texto esperado,src/formatter/vaccine_test_processor.py:225-280,Campos consumidos; nao e esquema completo do export
+metadados_agenda,pdf_file,Metadado da extracao; contagem vem do XLSX,texto/caminho,src/scraper/appointment_extractor.py:54-63,Nao persistido como manifesto de execucao
+metadados_agenda,excel_file,Metadado da extracao; contagem vem do XLSX,texto/caminho,src/scraper/appointment_extractor.py:54-63,Nao persistido como manifesto de execucao
+metadados_agenda,appointments_count,Metadado da extracao; contagem vem do XLSX,numero,src/scraper/appointment_extractor.py:54-63,Nao persistido como manifesto de execucao
+metadados_agenda,download_time,Metadado da extracao; contagem vem do XLSX,numero,src/scraper/appointment_extractor.py:54-63,Nao persistido como manifesto de execucao
+metadados_agenda,date_range,Metadado da extracao; contagem vem do XLSX,texto/caminho,src/scraper/appointment_extractor.py:54-63,Nao persistido como manifesto de execucao
+metadados_agenda,formatted_date_range,Metadado da extracao; contagem vem do XLSX,texto/caminho,src/scraper/appointment_extractor.py:54-63,Nao persistido como manifesto de execucao
+metadados_agenda,month,Metadado da extracao; contagem vem do XLSX,texto/caminho,src/scraper/appointment_extractor.py:54-63,Nao persistido como manifesto de execucao
+metadados_agenda,status,Metadado da extracao; contagem vem do XLSX,texto/caminho,src/scraper/appointment_extractor.py:54-63,Nao persistido como manifesto de execucao
+derivado,procedimento,Alias de Produto/serviço,texto,src/formatter/data_formatter.py:246-248,Busca por texto e nao codigo
+derivado,interno/externo,Venda positiva para mesmo nome de animal,booleano,src/formatter/vaccine_test_processor.py:154-191,Sem verificacao de recebimento e vinculo ao evento
+derivado,vaccine_test_revenue,Soma de Liquido de linhas selecionadas,numero,src/formatter/vaccine_test_processor.py:291-360,Nao e conciliacao financeira
+resumo,Item / Valor,Rotulo e agregado Catland,texto / numero,src/formatter/data_formatter.py:345-438,Sem rastreabilidade individual
+ausencia_no_modelo,animal_id,ID nao demonstrado no conjunto consumido,desconhecido,fontes de coleta e formatacao,Nao significa que SimplesVet nao tenha IDs
+ausencia_no_modelo,cliente_id,ID nao demonstrado no conjunto consumido,desconhecido,fontes de coleta e formatacao,Nao significa que SimplesVet nao tenha IDs
+ausencia_no_modelo,evento_id,ID nao demonstrado no conjunto consumido,desconhecido,fontes de coleta e formatacao,Nao significa que SimplesVet nao tenha IDs
+ausencia_no_modelo,item_venda_id,ID nao demonstrado no conjunto consumido,desconhecido,fontes de coleta e formatacao,Nao significa que SimplesVet nao tenha IDs
+ausencia_no_modelo,pagamento_id,ID nao demonstrado no conjunto consumido,desconhecido,fontes de coleta e formatacao,Nao significa que SimplesVet nao tenha IDs
