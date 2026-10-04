@@ -1,0 +1,6323 @@
+{
+  "source_repository": "zRyyH/robo_simplesvet",
+  "commit": "0f893c32eed9d83f94e367712fd37bcf139f1dc0",
+  "values_omitted": true,
+  "files": {
+    "conci.json": [
+      {
+        "path": "$",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.links",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.links.self",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.meta",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.meta.totalItems",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data",
+        "types": [
+          "array"
+        ]
+      },
+      {
+        "path": "$.data[]",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.tipo",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.tipo.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.tipo.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.status",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.status.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.status.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.bandeira",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.bandeira.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.bandeira.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.bandeira.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.bandeira.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.bandeira.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.bandeira.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.bandeira.data.attributes.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.bandeira.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.integrador",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.integrador.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.integrador.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.integrador.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.integrador.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.integrador.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.integrador.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.integrador.data.attributes.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.integrador.data.attributes.antecipacao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.origem",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.origem.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.origem.conta",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.origem.conta.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.origem.conta.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.origem.conta.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.origem.conta.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.origem.conta.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.origem.conta.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.origem.conta.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.origem.conta.data.attributes.status",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.origem.conta.data.attributes.sigla",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.origem.conta.data.attributes.tipoInterno",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.origem.conta.data.attributes.dadosBancarios",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.origem.conta.data.attributes.dadosBancarios.agenciaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.origem.conta.data.attributes.dadosBancarios.agenciaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.origem.conta.data.attributes.dadosBancarios.contaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.origem.conta.data.attributes.dadosBancarios.contaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.origem.conta.data.attributes.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.destino",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.destino.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.destino.conta",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.destino.conta.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.destino.conta.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.destino.conta.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.destino.conta.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.destino.conta.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.destino.conta.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.destino.conta.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.destino.conta.data.attributes.status",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.destino.conta.data.attributes.sigla",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.destino.conta.data.attributes.tipoInterno",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.destino.conta.data.attributes.dadosBancarios",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.destino.conta.data.attributes.dadosBancarios.agenciaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.destino.conta.data.attributes.dadosBancarios.agenciaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.destino.conta.data.attributes.dadosBancarios.contaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.destino.conta.data.attributes.dadosBancarios.contaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.transferencia.destino.conta.data.attributes.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.valor",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.taxaBandeira",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.taxaBandeira.porcentagem",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.taxaBandeira.valor",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.taxaAntecipacao",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.taxaAntecipacao.porcentagem",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.taxaAntecipacao.valor",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.taxaAluguel",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.arredondamento",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.observacao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.data",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.conciliacao.data.attributes.bandeiraTipoId",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.conta",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.conta.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.conta.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.conta.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.conta.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.conta.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.conta.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.conta.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.conta.data.attributes.status",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.conta.data.attributes.sigla",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.conta.data.attributes.tipoInterno",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.conta.data.attributes.dadosBancarios",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.conta.data.attributes.dadosBancarios.agenciaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.conta.data.attributes.dadosBancarios.agenciaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.conta.data.attributes.dadosBancarios.contaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.conta.data.attributes.dadosBancarios.contaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.conta.data.attributes.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.venceEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.valor",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.parcela",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.pagoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.bandeira",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.bandeira.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.bandeira.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.bandeira.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.bandeira.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.bandeira.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.bandeira.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.bandeira.data.attributes.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.bandeira.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos",
+        "types": [
+          "array"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[]",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.taxa",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.parcelas",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.situacao",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.situacao.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.situacao.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.descricao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.primeiraParcelaVenceEm",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.intervaloParcelas",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.situacao",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.situacao.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.situacao.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.formaRecebimento",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.formaRecebimento.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.formaRecebimento.taxaAntecipacao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.formaRecebimento.calculoAntecipacao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.status",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.sigla",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.tipoInterno",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.dadosBancarios",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.dadosBancarios.agenciaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.dadosBancarios.agenciaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.dadosBancarios.contaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.dadosBancarios.contaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.baixaAutomatica",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos",
+        "types": [
+          "array"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[]",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira",
+        "types": [
+          "object",
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data.attributes.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos",
+        "types": [
+          "array"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[]",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.taxa",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.parcelas",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.situacao",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.situacao.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.situacao.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.descricao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.primeiraParcelaVenceEm",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.intervaloParcelas",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.situacao",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.situacao.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.situacao.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.formaRecebimento",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.formaRecebimento.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.formaRecebimento.taxaAntecipacao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.formaRecebimento.calculoAntecipacao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.status",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.sigla",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.tipoInterno",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.dadosBancarios",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.dadosBancarios.agenciaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.dadosBancarios.agenciaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.dadosBancarios.contaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.dadosBancarios.contaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipo",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipo.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipo.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.situacao",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.situacao.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.situacao.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.alteradoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.permiteTroco",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.antecipacaoAutomatica",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.antecipacaoAutomatica.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.antecipacaoAutomatica.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.antecipacaoAutomaticaCreditoAvista",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.prazoRecebimentoDebito",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.prazoRecebimentoCreditoAvista",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.prazoAntecipacao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipoAntecipacao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.calculoAntecipacao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.taxaAntecipacao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.integradorNome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.aceitaPix",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.aceitaPix.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.aceitaPix.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.CNPJCredenciadora",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.status",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.sigla",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.tipoInterno",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.dadosBancarios",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.dadosBancarios.agenciaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.dadosBancarios.agenciaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.dadosBancarios.contaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.dadosBancarios.contaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.integrador",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.integrador.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.integrador.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.integrador.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.integrador.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.integrador.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.integrador.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.integrador.data.attributes.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaRecebimento.data.attributes.integrador.data.attributes.antecipacao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamento.data.attributes.formaPagamento",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.baixadaEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.venda",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.venda.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.venda.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.venda.status",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.venda.status.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.venda.status.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.venda.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.venda.animal",
+        "types": [
+          "array"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.venda.cliente",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.venda.cliente.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.venda.cliente.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.caixa",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.caixa.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.caixa.chave",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.caixa.usuario",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.nsu",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.valor",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.valorLiquido",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.taxaBandeira",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.taxaAntecipacao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.numeroParcelas",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.bandeira",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.bandeira.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.bandeira.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.bandeira.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.bandeira.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.bandeira.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.bandeira.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.bandeira.data.attributes.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.bandeira.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos",
+        "types": [
+          "array"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[]",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.taxa",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.parcelas",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.situacao",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.situacao.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.situacao.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.descricao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.primeiraParcelaVenceEm",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.intervaloParcelas",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.situacao",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.situacao.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.situacao.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.formaRecebimento",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.formaRecebimento.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.formaRecebimento.taxaAntecipacao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.formaRecebimento.calculoAntecipacao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.status",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.sigla",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.tipoInterno",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.dadosBancarios",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.dadosBancarios.agenciaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.dadosBancarios.agenciaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.dadosBancarios.contaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.dadosBancarios.contaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.baixaAutomatica",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos",
+        "types": [
+          "array"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[]",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira",
+        "types": [
+          "object",
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data.attributes.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos",
+        "types": [
+          "array"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[]",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.taxa",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.parcelas",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.situacao",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.situacao.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.situacao.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.descricao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.primeiraParcelaVenceEm",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.intervaloParcelas",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.situacao",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.situacao.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.situacao.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.formaRecebimento",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.formaRecebimento.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.formaRecebimento.taxaAntecipacao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.formaRecebimento.calculoAntecipacao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.status",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.sigla",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.tipoInterno",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.dadosBancarios",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.dadosBancarios.agenciaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.dadosBancarios.agenciaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.dadosBancarios.contaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.dadosBancarios.contaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipo",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipo.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipo.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.situacao",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.situacao.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.situacao.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.alteradoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.permiteTroco",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.antecipacaoAutomatica",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.antecipacaoAutomatica.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.antecipacaoAutomatica.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.antecipacaoAutomaticaCreditoAvista",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.prazoRecebimentoDebito",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.prazoRecebimentoCreditoAvista",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.prazoAntecipacao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipoAntecipacao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.calculoAntecipacao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.taxaAntecipacao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.integradorNome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.aceitaPix",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.aceitaPix.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.aceitaPix.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.CNPJCredenciadora",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.status",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.sigla",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.tipoInterno",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.dadosBancarios",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.dadosBancarios.agenciaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.dadosBancarios.agenciaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.dadosBancarios.contaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.dadosBancarios.contaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.integrador",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.integrador.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.integrador.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.integrador.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.integrador.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.integrador.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.integrador.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.integrador.data.attributes.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.formaRecebimento.data.attributes.integrador.data.attributes.antecipacao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.vendaBaixaId",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.parcelamento",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.parcelamento.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.parcelamento.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.parcelamento.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.parcelamento.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.parcelamento.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.parcelamento.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.parcelamento.data.attributes.taxa",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.parcelamento.data.attributes.parcelas",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.parcelamento.data.attributes.situacao",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.parcelamento.data.attributes.situacao.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.parcelamento.data.attributes.situacao.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.parcelamento.data.attributes.descricao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.parcelamento.data.attributes.primeiraParcelaVenceEm",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.parcelamento.data.attributes.intervaloParcelas",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixa.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.baixaMultipla",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.adiantamento",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.vendaBaixa",
+        "types": [
+          "null"
+        ]
+      }
+    ],
+    "conciliacao.json": [
+      {
+        "path": "$",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.tipo",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.tipo.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.tipo.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.status",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.status.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.status.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.bandeira",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.bandeira.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.bandeira.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.bandeira.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.bandeira.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.bandeira.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.bandeira.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.bandeira.data.attributes.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.bandeira.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.integrador",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.integrador.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.integrador.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.integrador.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.integrador.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.integrador.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.integrador.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.integrador.data.attributes.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.integrador.data.attributes.antecipacao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.origem",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.origem.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.origem.conta",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.origem.conta.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.origem.conta.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.origem.conta.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.origem.conta.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.origem.conta.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.origem.conta.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.origem.conta.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.origem.conta.data.attributes.status",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.origem.conta.data.attributes.sigla",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.origem.conta.data.attributes.tipoInterno",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.origem.conta.data.attributes.dadosBancarios",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.origem.conta.data.attributes.dadosBancarios.agenciaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.origem.conta.data.attributes.dadosBancarios.agenciaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.origem.conta.data.attributes.dadosBancarios.contaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.origem.conta.data.attributes.dadosBancarios.contaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.origem.conta.data.attributes.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.destino",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.destino.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.destino.conta",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.destino.conta.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.destino.conta.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.destino.conta.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.destino.conta.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.destino.conta.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.destino.conta.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.destino.conta.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.destino.conta.data.attributes.status",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.destino.conta.data.attributes.sigla",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.destino.conta.data.attributes.tipoInterno",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.destino.conta.data.attributes.dadosBancarios",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.destino.conta.data.attributes.dadosBancarios.agenciaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.destino.conta.data.attributes.dadosBancarios.agenciaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.destino.conta.data.attributes.dadosBancarios.contaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.destino.conta.data.attributes.dadosBancarios.contaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.transferencia.destino.conta.data.attributes.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.valor",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.taxaBandeira",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.taxaBandeira.porcentagem",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.taxaBandeira.valor",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.taxaAntecipacao",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.taxaAntecipacao.porcentagem",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.taxaAntecipacao.valor",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.taxaAluguel",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.arredondamento",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.observacao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.data",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.conciliacao.data.attributes.bandeiraTipoId",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.conta",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.conta.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.conta.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.conta.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.conta.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.conta.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.conta.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.conta.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.conta.data.attributes.status",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.conta.data.attributes.sigla",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.conta.data.attributes.tipoInterno",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.conta.data.attributes.dadosBancarios",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.conta.data.attributes.dadosBancarios.agenciaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.conta.data.attributes.dadosBancarios.agenciaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.conta.data.attributes.dadosBancarios.contaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.conta.data.attributes.dadosBancarios.contaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.conta.data.attributes.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.venceEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.valor",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.parcela",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.pagoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.bandeira",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.bandeira.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.bandeira.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.bandeira.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.bandeira.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.bandeira.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.bandeira.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.bandeira.data.attributes.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.bandeira.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos",
+        "types": [
+          "array"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[]",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.taxa",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.parcelas",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.situacao",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.situacao.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.situacao.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.descricao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.primeiraParcelaVenceEm",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.intervaloParcelas",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.situacao",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.situacao.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.situacao.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.formaRecebimento",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.formaRecebimento.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.formaRecebimento.taxaAntecipacao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.formaRecebimento.calculoAntecipacao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.status",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.sigla",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.tipoInterno",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.dadosBancarios",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.dadosBancarios.agenciaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.dadosBancarios.agenciaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.dadosBancarios.contaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.dadosBancarios.contaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.baixaAutomatica",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos",
+        "types": [
+          "array"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[]",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira",
+        "types": [
+          "object",
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data.attributes.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos",
+        "types": [
+          "array"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[]",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.taxa",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.parcelas",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.situacao",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.situacao.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.situacao.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.descricao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.primeiraParcelaVenceEm",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.intervaloParcelas",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.situacao",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.situacao.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.situacao.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.formaRecebimento",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.formaRecebimento.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.formaRecebimento.taxaAntecipacao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.formaRecebimento.calculoAntecipacao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.status",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.sigla",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.tipoInterno",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.dadosBancarios",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.dadosBancarios.agenciaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.dadosBancarios.agenciaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.dadosBancarios.contaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.dadosBancarios.contaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipo",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipo.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipo.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.situacao",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.situacao.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.situacao.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.alteradoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.permiteTroco",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.antecipacaoAutomatica",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.antecipacaoAutomatica.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.antecipacaoAutomatica.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.antecipacaoAutomaticaCreditoAvista",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.prazoRecebimentoDebito",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.prazoRecebimentoCreditoAvista",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.prazoAntecipacao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.tipoAntecipacao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.calculoAntecipacao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.taxaAntecipacao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.integradorNome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.aceitaPix",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.aceitaPix.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.aceitaPix.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.CNPJCredenciadora",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.status",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.sigla",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.tipoInterno",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.dadosBancarios",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.dadosBancarios.agenciaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.dadosBancarios.agenciaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.dadosBancarios.contaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.dadosBancarios.contaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.integrador",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.integrador.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.integrador.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.integrador.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.integrador.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.integrador.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.integrador.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.integrador.data.attributes.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaRecebimento.data.attributes.integrador.data.attributes.antecipacao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.lancamento.data.attributes.formaPagamento",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.baixadaEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.venda",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.venda.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.venda.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.venda.status",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.venda.status.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.venda.status.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.venda.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.venda.animal",
+        "types": [
+          "array"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.venda.cliente",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.venda.cliente.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.venda.cliente.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.caixa",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.caixa.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.caixa.chave",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.caixa.usuario",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.nsu",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.valor",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.valorLiquido",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.taxaBandeira",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.taxaAntecipacao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.numeroParcelas",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.bandeira",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.bandeira.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.bandeira.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.bandeira.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.bandeira.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.bandeira.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.bandeira.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.bandeira.data.attributes.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.bandeira.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos",
+        "types": [
+          "array"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[]",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.taxa",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.parcelas",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.situacao",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.situacao.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.situacao.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.descricao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.primeiraParcelaVenceEm",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.parcelamentos[].data.attributes.intervaloParcelas",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.situacao",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.situacao.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.situacao.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.formaRecebimento",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.formaRecebimento.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.formaRecebimento.taxaAntecipacao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.formaRecebimento.calculoAntecipacao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.status",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.sigla",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.tipoInterno",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.dadosBancarios",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.dadosBancarios.agenciaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.dadosBancarios.agenciaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.dadosBancarios.contaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.dadosBancarios.contaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.bandeiraTipo.data.attributes.contaDestino.data.attributes.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.baixaAutomatica",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos",
+        "types": [
+          "array"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[]",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira",
+        "types": [
+          "object",
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data.attributes.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.bandeira.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos",
+        "types": [
+          "array"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[]",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.taxa",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.parcelas",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.situacao",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.situacao.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.situacao.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.descricao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.primeiraParcelaVenceEm",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.parcelamentos[].data.attributes.intervaloParcelas",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.situacao",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.situacao.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.situacao.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.formaRecebimento",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.formaRecebimento.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.formaRecebimento.taxaAntecipacao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.formaRecebimento.calculoAntecipacao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.status",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.sigla",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.tipoInterno",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.dadosBancarios",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.dadosBancarios.agenciaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.dadosBancarios.agenciaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.dadosBancarios.contaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.dadosBancarios.contaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipos[].data.attributes.contaDestino.data.attributes.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipo",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipo.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipo.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.situacao",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.situacao.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.situacao.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.alteradoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.permiteTroco",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.antecipacaoAutomatica",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.antecipacaoAutomatica.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.antecipacaoAutomatica.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.antecipacaoAutomaticaCreditoAvista",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.prazoRecebimentoDebito",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.prazoRecebimentoCreditoAvista",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.prazoAntecipacao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.tipoAntecipacao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.calculoAntecipacao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.taxaAntecipacao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.integradorNome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.aceitaPix",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.aceitaPix.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.aceitaPix.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.CNPJCredenciadora",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.status",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.sigla",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.tipoInterno",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.dadosBancarios",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.dadosBancarios.agenciaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.dadosBancarios.agenciaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.dadosBancarios.contaNumero",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.dadosBancarios.contaDv",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.conta.data.attributes.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.integrador",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.integrador.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.integrador.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.integrador.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.integrador.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.integrador.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.integrador.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.integrador.data.attributes.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.formaRecebimento.data.attributes.integrador.data.attributes.antecipacao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.vendaBaixaId",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.parcelamento",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.parcelamento.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.parcelamento.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.parcelamento.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.parcelamento.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.parcelamento.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.parcelamento.data.attributes.nome",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.parcelamento.data.attributes.taxa",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.parcelamento.data.attributes.parcelas",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.parcelamento.data.attributes.situacao",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.parcelamento.data.attributes.situacao.chave",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.parcelamento.data.attributes.situacao.descricao",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.parcelamento.data.attributes.descricao",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.parcelamento.data.attributes.primeiraParcelaVenceEm",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.parcelamento.data.attributes.intervaloParcelas",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.incluidoEm",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixa.data.attributes.tipo",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.attributes.baixaMultipla",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.adiantamento",
+        "types": [
+          "null"
+        ]
+      },
+      {
+        "path": "$.attributes.vendaBaixa",
+        "types": [
+          "null"
+        ]
+      }
+    ],
+    "lanca.json": [
+      {
+        "path": "$",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.links",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.links.self",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.meta",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.meta.totalItems",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data",
+        "types": [
+          "array"
+        ]
+      },
+      {
+        "path": "$.data[]",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.valor",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.natureza",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.categoria",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.categoria.data",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.categoria.data.id",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.categoria.data.type",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.categoria.data.attributes",
+        "types": [
+          "object"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.categoria.data.attributes.id",
+        "types": [
+          "number"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.categoria.data.attributes.tipoInterno",
+        "types": [
+          "string"
+        ]
+      },
+      {
+        "path": "$.data[].attributes.lancamentoId",
+        "types": [
+          "number"
+        ]
+      }
+    ]
+  }
+}
